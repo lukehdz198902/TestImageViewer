@@ -71,6 +71,10 @@
     <Content Include="Recursos\imgviewer\dist\jquery.magnify.js" />
     <Content Include="Recursos\imgviewer\dist\jquery.magnify.min.css" />
     <Content Include="Recursos\imgviewer\dist\jquery.magnify.min.js" />
+    <Content Include="Recursos\js\bootstrap.min.css" />
+    <Content Include="Recursos\js\bootstrap.min.js" />
+    <Content Include="Recursos\js\font-awesome.min.css" />
+    <Content Include="Recursos\js\jquery.min.js" />
     <Content Include="VisorImageViewer\ViewerImg.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>

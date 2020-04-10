@@ -10,14 +10,10 @@
     <title>Magnify Examples</title>
     <!-- Bootstrap -->
     <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <%--<link href="../Recursos/js/font-awesome.min.css" rel="stylesheet" />--%>
+    <link href="../Recursos/js/bootstrap.min.css" rel="stylesheet" />
     <link href="../Recursos/imgviewer/dist/jquery.magnify.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
+
     <style>
         .magnify-modal {
             box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.3);
@@ -74,8 +70,8 @@
         <button class="btn btn-sm- btn-primary" id="btnVerImagenes"><i class="fa fa-search"></i>Ver Imagenes</button>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../Recursos/js/jquery.min.js"></script>
+    <script src="../Recursos/js/bootstrap.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../Recursos/imgviewer/dist/jquery.magnify.js"></script>
     <script>
