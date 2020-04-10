@@ -66,10 +66,22 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pages\ViewerPage.aspx" />
+    <Content Include="Recursos\imgviewer\dist\jquery.magnify.css" />
+    <Content Include="Recursos\imgviewer\dist\jquery.magnify.js" />
+    <Content Include="Recursos\imgviewer\dist\jquery.magnify.min.css" />
+    <Content Include="Recursos\imgviewer\dist\jquery.magnify.min.js" />
     <Content Include="VisorImageViewer\ViewerImg.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\ViewerPage.aspx.cs">
+      <DependentUpon>ViewerPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ViewerPage.aspx.designer.cs">
+      <DependentUpon>ViewerPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VisorImageViewer\ViewerImg.aspx.cs">
       <DependentUpon>ViewerImg.aspx</DependentUpon>
@@ -79,6 +91,7 @@
       <DependentUpon>ViewerImg.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
